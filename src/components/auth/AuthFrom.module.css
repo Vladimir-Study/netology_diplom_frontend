@@ -1,0 +1,7 @@
+.authForm {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  height: 20vh;
+  justify-content: space-between;
+}
