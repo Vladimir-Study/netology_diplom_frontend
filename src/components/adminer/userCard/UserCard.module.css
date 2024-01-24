@@ -1,0 +1,48 @@
+.userCard {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.styleUserIcon {
+  width: 30%;
+}
+
+.userData {
+  width: 100%;
+}
+
+.userData p{
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.userField {
+  display: flex;
+  justify-content: start;
+}
+
+.userField p{
+  margin: 0;
+}
+
+.userDelete {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.aboutStorage {
+  display: flex;
+  flex-direction: column;
+}
+
+.filesData {
+  margin-bottom: 1rem;
+}

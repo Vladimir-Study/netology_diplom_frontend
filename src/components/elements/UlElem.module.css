@@ -1,0 +1,26 @@
+.header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  background-color: #0660ba8e;
+  padding-right: 3rem;
+  padding-left: 1rem;
+}
+
+.ulStyle {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.liStyle {
+  list-style: none;
+}
+
+.preloaderStyle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
