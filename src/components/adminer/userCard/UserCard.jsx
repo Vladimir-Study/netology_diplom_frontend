@@ -20,7 +20,6 @@ export function UserCard({ userData, userFilesData }) {
   const username = userData.username;
 
   const hundleChange = async (e) => {
-    console.log(e.target.checked);
     const data = {
       is_staff: e.target.checked
     };
